@@ -34,11 +34,11 @@ footer {
 
 
 
-@media (min-width: 900px) {
+@media (min-width: 700px) {
 main {
     display: grid;
-    grid-template-columns: 75% 75%;
-    grid-gap: 30px;
+    grid-template-columns: 45% 45%;
+    grid-gap: 20px;
 }
 
 }
@@ -47,3 +47,17 @@ section {
     max-width: 350px;
 }
 
+#dog container {
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    background: green
+    color: white;
+    font-weight: 800;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#image-display{
+    width: 100%;
+}
