@@ -29,7 +29,9 @@ footer {
     background-color: var(--footer-background);
 }
 
-
+.hidden {
+    display: none;
+}
 
 
 
@@ -47,11 +49,11 @@ section {
     max-width: 350px;
 }
 
-#dog container {
+#dog-container {
     width: 200px;
     padding: 5px;
     text-align: center;
-    background: green
+    background: green;
     color: white;
     font-weight: 800;
     border: 1px solid black;
