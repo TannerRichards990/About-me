@@ -28,3 +28,22 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+
+
+
+
+
+@media (min-width: 900px) {
+main {
+    display: grid;
+    grid-template-columns: 75% 75%;
+    grid-gap: 30px;
+}
+
+}
+
+section {
+    max-width: 350px;
+}
+
