@@ -12,10 +12,62 @@
 <body>
     <header>
         <img src="assets/html_css_js.png">
-        <h1>Web UI Project</h1>
+        <h1>About me</h1>
     </header>
 
     <main>
+        <section id="intro-section">
+    <h2>Intro</h2>
+        <p>
+        Secret Animal, an animal humans have been in collaboration with for centuries. 
+        Now breed to all different shapes, sizes, and attributes, this secret animal is truly
+        a wonderful species. They stand side by side with humans helping them in a 
+        variety of different jobs. They also make amazing companions that often times
+        feel as one of the family. They will brighten your day on almost every occasion.
+        We love our secret animal!
+        </p>
+
+        <p>
+            <label>
+                <input id="tos-checkbox" type="checkbox">
+                I accept the terms and conditions of 
+                this service and promise to fulfill my
+                duties to worshiping this animal.
+        </label>
+        </p>
+        <p>What is my favorite animal?</p>
+        <p> 
+        <button id="show-answer-button" disabled>Show Answer</button>
+        </p>
+    </section>
+
+    <section id="animal-section" class="hidden">
+        <h2>A Dog!</h2>
+
+        <div id="dog-container">
+            <p>
+                <img id="image-display" src="assets/Dogs/french-bulldog.png">
+                </p>
+                <p id="name-display">Frenchy</p>
+        </div>
+
+        <h2>Design this Dog</h2>
+        <p>
+            <label>
+                Select an image type:
+                <select id="image-select">
+                <option value="french-bulldog.png" selected>Frenchy</option>
+                <option value="golden-retriever.png">Goldy</option>
+            <option value="tibetan-mastiff.png">Tibby</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label>
+                Name: <input id="name-input" value="Rich">
+            </label>
+        </p>
+    </section>
 
     </main>
 
