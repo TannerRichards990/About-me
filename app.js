@@ -9,6 +9,7 @@ const imageSelect = document.getElementById('image-select');
 const imageDisplay = document.getElementById('image-display');
 console.log(tosCheckbox);
 console.log(showAnswerButton); 
+console.log(nameInput);
 tosCheckbox.addEventListener('change', () => {
     showAnswerButton.disabled = !tosCheckbox.checked;
 });
